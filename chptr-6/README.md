@@ -1,4 +1,4 @@
-#Chapter 6 : GitHub - Account Setup and Configuration
+#Chapter 6 : GitHub 
 
 //Gelsy Juntilla
 
