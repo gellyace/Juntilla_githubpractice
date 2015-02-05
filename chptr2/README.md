@@ -3,6 +3,7 @@
 //Juntilla Gelsy
 
 *Getting a Git Repository
+
   Initializing a Repository in an Existing Directory
     1. git init
     2. git add *.c
@@ -12,6 +13,7 @@
     1. git clone url
     
 *Recording Changes to the Repository
+
   Checking the status of Your Files
     1. git status
   Tracking New Files
