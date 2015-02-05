@@ -1,4 +1,4 @@
-# Chapter 4 : Git on the Server - The Protocol
+# Chapter 4 : Git on the Server
 
 //Gelsy Juntilla
 
