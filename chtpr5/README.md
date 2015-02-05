@@ -22,6 +22,7 @@
     4. The dictator pushes their master to the reference repository so the other developers can rebase on it.
 
 * Contributing to a Project
+
   Variables:
       1. Active Contributor Count 
       2. Chosen Workflow
