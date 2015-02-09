@@ -1,6 +1,5 @@
 # Chapter 5 : Distributed Git
 
-//Gelsy Juntilla
 
 * Distributed Workflows
   In Git, every developer is potentially both a node and a hub – that is, every developer can both contribute code to other repositories and maintain a public repository on which others can base their work and which they can contribute to.
@@ -22,10 +21,16 @@
     4. The dictator pushes their master to the reference repository so the other developers can rebase on it.
 
 * Contributing to a Project
-
   Variables:
       1. Active Contributor Count 
       2. Chosen Workflow
-      3. Your Commit Access'
+      3. Your Commit Access
       4. External Contribution Method
-      
+  >Commit Guidelines
+  >Private Small Team - the project is not accessible to the outside world and everyone have push access to the repo. If the other member pushes something, you must first fetch it and merge it into your machine before you can push a file.
+  >Private Managed Team - contributors role in a larger private group. 
+  >Forked Public Project 
+  >Public Project over E-Mail
+
+*Maintaining a Project
+  >This consists of accepting and applying patches generated via format-patch and e-mailed to you, or integrating changes in remote branches for repositories you've added as remotes to your project.
