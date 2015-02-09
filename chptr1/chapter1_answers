@@ -1,0 +1,74 @@
+#Chapter 1 : Commands
+
+
+*Installing Git on Linux
+For Fedora users: $ yum install git
+For Debian-based distribution: $ sudo apt-get install git
+For Others: try and visit Git website: http://git-scm.com/download/linux
+
+*Installing on Mac
+Xcode Command Line Tools
+	OR
+Run git from the Terminal
+	OR
+visit http://git-scm/download/mac
+	OR
+visit http://mac.github.com
+
+*Installing on Windows
+visit http://git-scm.com/download/win
+	OR
+visit http://windows.github.com
+
+*Installing from Source
+1.) Install the minimal dependencies for compiling and installing the Git binaries:
+	$ yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+	OR
+	$ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+2.) Install additional dependencies (To add documentation in varous formats)
+	$ yum install asciidoc xmlto docbook2x
+	OR
+	$ sudo apt-get install asciidoc xmlto docbook2x
+3.) Get the source from  https://www.kernel.org/pub/software/scm/git OR https://github.com/git/git/releases
+4.) Compile and Install:
+	$ tar -zxf git-2.0.0.0.tar.gz
+	$ cd git-2.0.0
+	$ make configure
+	$ ./configure --prefic=/usr
+	$ make all doc info
+	$ sudo make instal install-doc install-html instal-info
+5.) To get updates:
+	$ git clone git://git.kernel.org/pub/scm/git/git.git
+
+
+
+*Setting up Git
+**Identity
+$ git config --global user.name "gellyace"
+$ git config --global user.email gelsyjuntilla@gmail.com
+**Editor
+$ git config --global core.editor gedit
+**Checking of Settings
+$ git config --list
+	user.name=gellyace
+	user.email=gelsyjuntilla@gmail.com
+$ git config user.name
+	gellyace
+
+
+
+*Getting Help
+**Get the manual page for help:
+	$ git help <verb>
+		OR
+	$ git <verb> --help
+		OR	
+	$ man git-<verb>
+
+  Example: $ git help config
+
+
+	
+
+
+
